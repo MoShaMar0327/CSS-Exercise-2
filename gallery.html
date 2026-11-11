@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <header>
+      <h1>Welcome to my gallery</h1>
+      <p>Discover the beauty of the world right here</p>
+    </header>
+    <div class="container">
+      <input type="radio" id="all" name="filter" checked />
+      <input type="radio" id="landscapes" name="filter" />
+      <input type="radio" id="portraits" name="filter" />
+      <input type="radio" id="architecture" name="filter" />
+
+      <div class="filters">
+        <label for="all" class="filter_btn">All</label>
+        <label for="landscapes" class="filter_btn">Landscapes</label>
+        <label for="portraits" class="filter_btn">Portraits</label>
+        <label for="architecture" class="filter_btn">Architecture</label>
+      </div>
+
+      <div class="photo_grid">
+        <article class="photos landscapes">
+          <div class="photo">
+            <img
+              src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+            />
+            <span class="category">Landscapes</span>
+            <div class="overlay">
+              <h3>Yosemite Valley</h3>
+              <p>
+                A river flowing through Yosemite Valley with granite cliffs and
+                pine trees at low light
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <article class="photos portraits">
+          <div class="photo">
+            <img
+              src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+            />
+            <span class="category">Portraits</span>
+            <div class="overlay">
+              <h3>Aiony Haust</h3>
+              <p>Woman wearing black crew-neck shirt</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="photos architecture">
+          <div class="photo">
+            <img
+              src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+            />
+            <span class="category">Architecture</span>
+            <div class="overlay">
+              <h3>Skyscrapers</h3>
+              <p>Low angle photo of city high rise buildings during daytime</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="photos landscapes">
+          <div class="photo">
+            <img
+              src="https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+            />
+            <span class="category">Landscapes</span>
+            <div class="overlay">
+              <h3>Lake Atitlan</h3>
+              <p>
+                A stone path through purple flowers leading to a wooden pier on
+                Lake Atitlan
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <article class="photos portraits">
+          <div class="photo">
+            <img
+              src="https://images.unsplash.com/photo-1770419252624-e14e9f9de640?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+            />
+            <span class="category">Portraits</span>
+            <div class="overlay">
+              <h3>Kenyan Female Portrait</h3>
+              <p>A woman with long braids and sunglasses poses</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="photos architecture">
+          <div class="photo">
+            <img
+              src="https://images.unsplash.com/photo-1759899564526-ed590258cb4d?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+            />
+            <span class="category">Architecture</span>
+            <div class="overlay">
+              <h3>Japanese Architecture</h3>
+              <p>Modern wooden buildings against a clear blue sky</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="photos landscapes">
+          <div class="photo">
+            <img
+              src="https://images.unsplash.com/photo-1608592077365-c6399182e63c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+            />
+            <span class="category">Landscapes</span>
+            <div class="overlay">
+              <h3>Bled</h3>
+              <p>Brown and white concrete building near lake during daytime</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="photos portraits">
+          <div class="photo">
+            <img
+              src="https://images.unsplash.com/photo-1768489038932-a63eef1fe51f?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+            />
+            <span class="category">Portraits</span>
+            <div class="overlay">
+              <h3>Kenyan Male Portrait</h3>
+              <p>Man in suit and sunglasses with hand on temple</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="photos architecture">
+          <div class="photo">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1684445035564-c98efbe1fb7d?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+            />
+            <span class="category">Architecture</span>
+            <div class="overlay">
+              <h3>Cabin in Canada</h3>
+              <p>A black house with a wooden deck in the woods</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="photos landscapes">
+          <div class="photo">
+            <img
+              src="https://images.unsplash.com/photo-1505852679233-d9fd70aff56d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+            />
+            <span class="category">Landscapes</span>
+            <div class="overlay">
+              <h3>Na Pali Coast Mountains</h3>
+              <p>
+                An aerial view of the lush green Na Pali Coast mountains in
+                Kauai, Hawaii
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <article class="photos portraits">
+          <div class="photo">
+            <img
+              src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+            />
+            <span class="category">Portraits</span>
+            <div class="overlay">
+              <h3>Ian Dooley</h3>
+              <p>Man standing near white wall</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="photos architecture">
+          <div class="photo">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1686090450346-f418fff5486e?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+            />
+            <span class="category">Architecture</span>
+            <div class="overlay">
+              <h3>Cabin in the Woods</h3>
+              <p>A small cabin nestled in the middle of a forest</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </body>
+</html>
